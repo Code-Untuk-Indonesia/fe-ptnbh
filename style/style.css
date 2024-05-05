@@ -1,184 +1,216 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* navbar */
+.navbar-transition {
+	transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link {
+	color: white;
+}
+
+/* end navbar */
 /* hero */
 .hero {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 600px;
-  justify-content: center;
-  text-align: center;
-  padding: 100px 120px;
-  filter: brightness(90%) sepia(20%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	justify-content: center;
+	text-align: center;
+	padding: 100px 120px;
+	filter: brightness(80%) sepia(20%);
 }
 
 .hero-1 {
-  font-family: "Inter", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  font-style: normal;
-  color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: normal;
+	color: #fff;
 }
 .hero-2 {
-  font-size: 48px;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #fff;
+	font-size: 48px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #fff;
 }
 
 .logo1 {
-  width: 150px;
+	width: 150px;
 }
 
 /* pengantatr */
 .pengantar {
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-  padding: 100px 120px;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	padding: 100px 120px;
 }
 
 .pengantar-1 {
-  font-family: "Inter", sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  font-style: normal;
-  color: #000;
-  margin-bottom: 40px;
+	font-family: 'Inter', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 40px;
 }
 .pengantar-2 {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  color: #000;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: normal;
+	color: #000;
 }
 .card-pengantar {
-  width: 100%;
-  padding: 40px;
-  background-color: #e8d933;
-  border-radius: 12px;
-  /* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); */
+	width: 100%;
+	padding: 40px;
+	background-color: #e8d933;
+	border-radius: 12px;
+	/* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); */
 }
 
 .card-pengantar:hover {
-  transform: translateY(-5px); /* Angkat kartu ke atas */
+	transform: translateY(-5px); /* Angkat kartu ke atas */
 }
 
 /* end pengantar */
+
 /* berita */
 .berita {
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-  padding: 100px 120px;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	padding: 100px 120px;
 }
-.card-news {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  width: 400px;
-  background-color: #e8d933;
-  /* padding: 20px; */
-  /* padding-top:20px ; */
-  padding-left: 0;
-  padding-right: 0;
-  border-radius: 12px;
+
+.card-news:hover {
+	transform: translateY(-5px);
+	transition: transform 0.3s ease-in-out;
 }
+
 .berita-1 {
-  font-family: "Inter", sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  font-style: normal;
-  color: #000;
-  margin-bottom: 40px;
+	font-family: 'Inter', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 40px;
 }
 
 .img-news {
-  width: 400px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  transition: transform 0.3s ease-in-out; /* Menambahkan efek transisi */
-}
-
-.img-news:hover {
-  transform: scale(1.05); /* Memperbesar gambar sebesar 5% saat hover */
+	width: 400px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
 
 .img-hover-zoom {
-  /* height: 300px;  */
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-  border-radius: 12px;
+	/* height: 300px;  */
+	overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+	border-radius: 12px;
 }
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-  transition: transform 0.5s ease;
+	transition: transform 0.5s ease;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
-  transform: scale(1.1);
-  border-radius: 12px;
+	transform: scale(1.1);
+	border-radius: 12px;
 }
 
 .date-news {
-  text-align: start;
+	text-align: start;
 
-  padding: 5px 20px 5px 20px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 0;
-  margin-top: 5px;
+	padding: 5px 20px 5px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-top: 5px;
 }
 .title-news {
-  text-align: start;
-  padding: 5px 20px 20px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #000;
-  display: -webkit-box;
-  -webkit-line-clamp: 3; /* Batasi jumlah baris menjadi 3 */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis; /* Tampilkan titik-titik jika teks melebihi jumlah baris */
+	text-align: start;
+	padding: 5px 20px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+	display: -webkit-box;
+	-webkit-line-clamp: 3; /* Batasi jumlah baris menjadi 3 */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis; /* Tampilkan titik-titik jika teks melebihi jumlah baris */
 }
 
 .btn-news {
-  margin-top: 40px;
-  /* width: 100%; */
-  border: none;
-  padding: 12px;
-  background-color: #eeeeee;
-  border-radius: 8px;
+	margin-top: 40px;
+	/* width: 100%; */
+	border: none;
+	padding: 12px;
+	background-color: #e0d666;
+	border-radius: 8px;
 }
 .a-btn-news {
-  font-size: 20px;
-  text-decoration: none;
-  color: #000;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
 }
 .btn-news:hover {
-    background-color: #e0d666;
-    color: #000;
+	opacity: 80%;
+	color: #000;
 }
 a:hover {
-  text-decoration: none;
-  color: #000;
+	text-decoration: none;
+	color: #000;
 }
 /* end berita */
 
 /* galeri */
 
 .galery-1 {
-  font-family: "Inter", sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  font-style: normal;
-  color: #000;
-  margin-bottom: 40px;
+	font-family: 'Inter', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 40px;
 }
 
 /* end galeri */
+
+/* footer */
+.footer {
+	background-color: #343a40;
+	color: #fff;
+	padding: 50px 20px;
+}
+
+.footer h5 {
+	color: #e8d933;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.footer p {
+	color: #bbb;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.footer ul li a {
+	color: #bbb;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* end footer */
