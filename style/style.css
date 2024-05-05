@@ -52,7 +52,7 @@
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
-  color: #fff;
+  color: #000;
 }
 .card-pengantar {
   width: 100%;
@@ -75,6 +75,9 @@
   padding: 100px 120px;
 }
 .card-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   width: 400px;
   background-color: #e8d933;
   /* padding: 20px; */
@@ -121,7 +124,9 @@
 }
 
 .date-news {
+  text-align: start;
 
+  padding: 5px 20px 5px 20px;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -129,6 +134,7 @@
   margin-top: 5px;
 }
 .title-news {
+  text-align: start;
   padding: 5px 20px 20px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -142,34 +148,37 @@
 }
 
 .btn-news {
-    margin-top: 40px;
-    /* width: 100%; */
-    border: none;
-    padding: 12px;
-    background-color: #EEEEEE;
-    border-radius: 8px;
+  margin-top: 40px;
+  /* width: 100%; */
+  border: none;
+  padding: 12px;
+  background-color: #eeeeee;
+  border-radius: 8px;
 }
 .a-btn-news {
-    font-size: 20px;
-    text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+.btn-news:hover {
+    background-color: #e0d666;
     color: #000;
 }
-
 a:hover {
-    text-decoration: none;
-    color:#000;
+  text-decoration: none;
+  color: #000;
 }
 /* end berita */
 
 /* galeri */
 
 .galery-1 {
-    font-family: "Inter", sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-    font-style: normal;
-    color: #000;
-    margin-bottom: 40px;
-  }
-  
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  color: #000;
+  margin-bottom: 40px;
+}
+
 /* end galeri */
