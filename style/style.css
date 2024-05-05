@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* hero */
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 120px;
+  filter: brightness(90%) sepia(20%);
+}
+
+.hero-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+.hero-2 {
+  font-size: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+
+.logo1 {
+  width: 150px;
+}
+
+/* pengantatr */
+.pengantar {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 120px;
+}
+
+.pengantar-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  color: #000;
+  margin-bottom: 40px;
+}
+.pengantar-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+}
+.card-pengantar {
+  width: 100%;
+  padding: 40px;
+  background-color: #e8d933;
+  border-radius: 12px;
+  /* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.card-pengantar:hover {
+  transform: translateY(-5px); /* Angkat kartu ke atas */
+}
+
+/* end pengantar */
+/* berita */
+.berita {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 120px;
+}
+.card-news {
+  width: 400px;
+  background-color: #e8d933;
+  /* padding: 20px; */
+  /* padding-top:20px ; */
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 12px;
+}
+.berita-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.img-news {
+  width: 400px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: transform 0.3s ease-in-out; /* Menambahkan efek transisi */
+}
+
+.img-news:hover {
+  transform: scale(1.05); /* Memperbesar gambar sebesar 5% saat hover */
+}
+
+.img-hover-zoom {
+  /* height: 300px;  */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  border-radius: 12px;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+  border-radius: 12px;
+}
+
+.date-news {
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.title-news {
+  padding: 5px 20px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Batasi jumlah baris menjadi 3 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Tampilkan titik-titik jika teks melebihi jumlah baris */
+}
+
+.btn-news {
+    margin-top: 40px;
+    /* width: 100%; */
+    border: none;
+    padding: 12px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+}
+.a-btn-news {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#000;
+}
+/* end berita */
+
+/* galeri */
+
+.galery-1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  
+/* end galeri */
