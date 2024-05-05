@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* navbar */
+
 .navbar-transition {
 	transition: background-color 0.3s ease;
 }
 
 .navbar-nav .nav-link {
-	color: white;
+	font-weight: 500;
+	color: white !important;
 }
 
 /* end navbar */
@@ -14,11 +16,14 @@
 .hero {
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 600px;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	text-align: center;
-	padding: 100px 120px;
 	filter: brightness(80%) sepia(20%);
 }
 
@@ -43,27 +48,34 @@
 
 /* pengantatr */
 .pengantar {
-	width: 100%;
-	justify-content: center;
+	padding: 100px 0;
+	background-color: #f8f9fa; /* Warna latar belakang */
 	text-align: center;
-	padding: 100px 120px;
 }
 
 .pengantar-1 {
 	font-family: 'Inter', sans-serif;
 	font-size: 36px;
 	font-weight: 600;
-	font-style: normal;
 	color: #000;
 	margin-bottom: 40px;
 }
+
+.card-pengantar {
+	background-color: #fff; /* Warna latar belakang card */
+	padding: 40px;
+	border-radius: 12px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Shadow card */
+}
+
 .pengantar-2 {
 	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-	font-style: normal;
-	color: #000;
+	color: #333; /* Warna teks */
+	line-height: 1.8; /* Jarak antar baris */
 }
+
 .card-pengantar {
 	width: 100%;
 	padding: 40px;
@@ -74,6 +86,7 @@
 
 .card-pengantar:hover {
 	transform: translateY(-5px); /* Angkat kartu ke atas */
+	transition: all 0.3s ease-in-out;
 }
 
 /* end pengantar */
@@ -104,23 +117,6 @@
 	width: 400px;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
-}
-
-.img-hover-zoom {
-	/* height: 300px;  */
-	overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-	border-radius: 12px;
-}
-
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom img {
-	transition: transform 0.5s ease;
-}
-
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom:hover img {
-	transform: scale(1.1);
-	border-radius: 12px;
 }
 
 .date-news {
@@ -172,6 +168,12 @@ a:hover {
 
 /* galeri */
 
+.galery {
+	background-color: #f8f9fa;
+	padding: 50px 0; /* Sesuaikan padding sesuai kebutuhan */
+	text-align: center;
+}
+
 .galery-1 {
 	font-family: 'Inter', sans-serif;
 	font-size: 36px;
@@ -179,6 +181,32 @@ a:hover {
 	font-style: normal;
 	color: #000;
 	margin-bottom: 40px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.col {
+	margin-bottom: 20px; /* Jarak antar gambar */
+}
+
+.card-galery {
+	border: none;
+}
+
+.img-hover-zoom {
+	overflow: hidden;
+	position: relative;
+}
+
+.img-hover-zoom img {
+	transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover img {
+	transform: scale(1.05); /* Efek zoom saat hover */
 }
 
 /* end galeri */
