@@ -255,6 +255,7 @@ a:hover {
 	padding: 100px 120px;
 	filter: brightness(80%) sepia(20%);
 	align-items: center;
+	margin-bottom: 40px;
 }
 
 .profile-1 {
