@@ -317,5 +317,21 @@ a:hover {
 
 /* end hostory */
 
+/* galery */
+.galery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 120px;
+}
 
+
+/* end galery */
 /* mobile responsive */
+@media screen and (max-width: 768px){
+  .logo-footer {
+    width: 50px;
+  }
+  
+}
