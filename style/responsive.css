@@ -164,3 +164,10 @@
 		margin-bottom: 10px;
 	}
 }
+
+/* mobile footer */
+@media screen and (max-width: 768px) {
+	.logo-footer {
+		width: 50px;
+	}
+}
