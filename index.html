@@ -98,8 +98,6 @@
 
     <!-- hero -->
     <section class="hero" style=" background-image: url(asset/rektorat-untan-scaled-2048x1152.jpg);">
-        <img class="logo1" src="asset/Universitas_Tanjungpura_Pontianak.webp" alt="logo" data-aos="fade-down"
-            data-aos-duration="2500">
         <h2 class="hero-1" data-aos="fade-up" data-aos-duration="2500">Universitas Tanjungpura</h2>
         <h1 class="hero-2" data-aos="fade-up" data-aos-duration="2500">Perguruan Tinggi Negeri
             Badan Hukum</h1>
@@ -257,23 +255,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init();
-
-        window.addEventListener('scroll', function () {
-            var navbar = document.querySelector('.navbar');
-            var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-            if (window.scrollY > 50) {
-                navbar.classList.remove('bg-transparent');
-                navbar.classList.add('bg-dark', 'navbar-transition');
-            } else {
-                navbar.classList.remove('bg-dark');
-                navbar.classList.add('bg-transparent');
-            }
-        });
-
-
-    </script>
+    <script src="script/index.js"></script>
 </body>
 
 </html>
