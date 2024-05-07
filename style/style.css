@@ -168,9 +168,13 @@ a:hover {
 /* galeri */
 
 .galery {
-	background-color: #f8f9fa;
-	padding: 50px 0; /* Sesuaikan padding sesuai kebutuhan */
-	text-align: center;
+	/* background-color: #f8f9fa;
+	padding: 50px 0;
+	text-align: center; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 120px;
 }
 
 .galery-1 {
@@ -253,7 +257,7 @@ a:hover {
 	position: 30% 90%;
 	background-position: 30%;
 	padding: 100px 120px;
-	filter: brightness(80%) sepia(20%);
+	filter: brightness(70%) sepia(20%);
 	align-items: center;
 	margin-bottom: 40px;
 }
@@ -320,7 +324,6 @@ a:hover {
 
 /* end galery */
 
-
 /* news */
 .news {
 	width: 100%;
@@ -332,12 +335,12 @@ a:hover {
 
 .news-1 {
 	font-family: 'Inter', sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-    font-style: normal;
-    color: #000;
-    margin-bottom: 40px;
-    text-align: start;
+	font-size: 36px;
+	font-weight: 600;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 40px;
+	text-align: start;
 }
 
 .img-news-last {
@@ -347,89 +350,87 @@ a:hover {
 
 .title-news-last {
 	font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    font-style: normal;
-    color: #000;
-    text-align: start;
+	font-size: 24px;
+	font-weight: 500;
+	font-style: normal;
+	color: #000;
+	text-align: start;
 }
-.date-news-last{
+.date-news-last {
 	font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #7a8a99;
-    text-align: start;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: #7a8a99;
+	text-align: start;
 }
 .content-news-last {
 	font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #000;
-    text-align: start;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: #000;
+	text-align: start;
 }
 
 .btn-last-news {
 	font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #000;
-    text-align: start;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: #000;
+	text-align: start;
 
 	border-radius: 8px;
 	border: none;
-	background-color:#7a8a99;
+	background-color: #7a8a99;
 	padding: 10px;
 }
-
 
 .news-all {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 100px 120px;	
+	padding: 100px 120px;
 	align-items: center;
 }
 
 .card-news-all {
 	width: 100%;
-    border: none;
-    border-radius: 12px;
-    margin-bottom: 40px;
+	border: none;
+	border-radius: 12px;
+	margin-bottom: 40px;
 }
 .title-news-all {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    font-style: normal;
-    color: #000;
-    text-align: start;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+	font-family: 'Inter', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	font-style: normal;
+	color: #000;
+	text-align: start;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 	line-height: normal;
 }
 
 .btn-all-news {
 	display: flex;
-	justify-content:  center;
+	justify-content: center;
 	padding: 12px;
 	border: none;
 	max-width: 200px;
 	border-radius: 12px;
 	color: #ffea00;
 	background-color: #7a8a99;
-	font-family:"Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 20px;
 }
 
 a.btn-all-news {
 	color: #ffea00;
-	
 }
 /*  */
 
@@ -437,36 +438,146 @@ a.btn-all-news {
 
 .profile {
 	width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 100px 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 100px 120px;
 }
 .title-profile {
 	font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    font-style: normal;
-    color: #000;
-    text-align: center;
-
+	font-size: 24px;
+	font-weight: 500;
+	font-style: normal;
+	color: #000;
+	text-align: center;
 }
 
 .misi-profile {
 	font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #000;
-    text-align: start;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: #000;
+	text-align: start;
 	padding: 20px;
 }
 .history-3 {
 	font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #000;
-    text-align: start;
-    padding: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: #000;
+	text-align: start;
+	padding: 20px;
+}
+
+.kontak {
+	padding: 80px 0;
+	background-color: #f8f9fa;
+}
+
+.kontak h2 {
+	margin-bottom: 30px;
+	font-size: 32px;
+}
+
+.kontak p {
+	margin-bottom: 30px;
+}
+
+.kontak ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 30px;
+}
+
+.kontak ul li {
+	margin-bottom: 10px;
+}
+
+.kontak ul li i {
+	margin-right: 10px;
+}
+
+.kontak form {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.kontak form label {
+	font-weight: 600;
+}
+
+.kontak form input,
+.kontak form textarea {
+	margin-bottom: 20px;
+}
+
+.kontak form textarea {
+	resize: none;
+}
+
+.kontak form button {
+	width: 100%;
+}
+
+.unit-bisnis {
+	padding: 50px 0;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* tambahan shadow */
+}
+
+.unit-bisnis h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 2.5rem;
+}
+
+.unit-bisnis p {
+	margin-bottom: 20px;
+}
+
+.unit-bisnis .accordion-item {
+	margin-bottom: 20px;
+	background-color: #f8f9fa;
+	border: 1px solid #dee2e6;
+	border-radius: 10px;
+}
+
+.unit-bisnis .accordion-button {
+	background-color: #f8f9fa;
+	color: #343a40;
+	border: none;
+	border-radius: 10px;
+	padding: 15px 20px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: left;
+	transition: all 0.3s ease;
+}
+
+.unit-bisnis .accordion-button:hover {
+	background-color: #e9ecef;
+}
+
+.unit-bisnis .accordion-button::after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 0.7em;
+	float: right;
+	margin-left: 5px;
+}
+
+.unit-bisnis .accordion-button.collapsed::after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+}
+
+.unit-bisnis .accordion-button:not(.collapsed)::after {
+	content: '\2796'; /* Unicode character for "minus" sign (-) */
+}
+
+.unit-bisnis .accordion-body {
+	background-color: #fff;
+	padding: 15px 20px;
+	border-radius: 0 0 10px 10px;
 }
