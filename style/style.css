@@ -581,3 +581,9 @@ a.btn-all-news {
 	padding: 15px 20px;
 	border-radius: 0 0 10px 10px;
 }
+
+.flag-img {
+	width: 18px;
+	height: auto;
+	margin-right: 5px;
+}
