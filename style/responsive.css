@@ -7,6 +7,12 @@
 	.navbar-nav .nav-link {
 		color: white;
 	}
+
+	.flag-img {
+		width: 12px;
+		height: auto;
+		margin-right: 5px;
+	}
 }
 
 /* Hero */
