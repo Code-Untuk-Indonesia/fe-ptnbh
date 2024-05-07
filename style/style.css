@@ -561,21 +561,6 @@ a.btn-all-news {
 	background-color: #e9ecef;
 }
 
-.unit-bisnis .accordion-button::after {
-	content: '\02795'; /* Unicode character for "plus" sign (+) */
-	font-size: 0.7em;
-	float: right;
-	margin-left: 5px;
-}
-
-.unit-bisnis .accordion-button.collapsed::after {
-	content: '\02795'; /* Unicode character for "plus" sign (+) */
-}
-
-.unit-bisnis .accordion-button:not(.collapsed)::after {
-	content: '\2796'; /* Unicode character for "minus" sign (-) */
-}
-
 .unit-bisnis .accordion-body {
 	background-color: #fff;
 	padding: 15px 20px;
