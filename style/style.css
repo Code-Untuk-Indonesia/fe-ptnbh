@@ -572,3 +572,12 @@ a.btn-all-news {
 	height: auto;
 	margin-right: 5px;
 }
+
+.card {
+	border: none;
+	border-bottom: 1px solid #343a40;
+}
+
+.card:last-child {
+	border-bottom: none;
+}
