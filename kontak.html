@@ -20,6 +20,10 @@
     <!-- aos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/responsive.css">
     <title>PTNBH Universitas Tanjungpura</title>
@@ -115,12 +119,14 @@
     <section class="kontak">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500">
                     <h2>Kontak Kami</h2>
                     <p>Untuk informasi lebih lanjut, jangan ragu untuk menghubungi kami melalui kontak berikut:</p>
                     <ul class="list-unstyled">
                         <li>
-                            <i class="fa fa-map-marker"></i> Jalan Universitas No. 123, Pontianak, Kalimantan Barat
+                            <i class="fa fa-map-marker"></i> Jl. Prof. Dr. H Jl. Profesor Dokter H. Hadari Nawawi,
+                            Bansir Laut, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan
+                            Barat 78124
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i> info@untan.ac.id
@@ -129,8 +135,10 @@
                             <i class="fa fa-phone"></i> 123-456-7890
                         </li>
                     </ul>
+                    <h2>Lokasi Kami</h2>
+                    <div id="leaflet-map" style="height: 400px;"></div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">
                     <h2>Formulir Kontak</h2>
                     <form>
                         <div class="mb-3">

@@ -11,3 +11,14 @@ window.addEventListener('scroll', function () {
 		navbar.classList.add('bg-transparent')
 	}
 })
+
+// leaflet
+var map = L.map('leaflet-map').setView([-0.060646, 109.3423133], 15) // Tentukan koordinat dan zoom awal
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	attribution:
+		'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map)
+
+var marker = L.marker([-0.060646, 109.3423133]).addTo(map) // Tambahkan penanda
+marker.bindPopup('<b>Universitas Tanjungpura</b>').openPopup()
