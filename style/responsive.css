@@ -177,3 +177,9 @@
 		width: 50px;
 	}
 }
+
+@media (max-width: 767px) {
+	.contact-form .send {
+		margin-bottom: 20px;
+	}
+}
