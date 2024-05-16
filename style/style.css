@@ -1046,3 +1046,9 @@ img {
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+.rektor {
+	padding: 100px 120px;
+}
+.img-rektor {
+	height: 450px;
+}
