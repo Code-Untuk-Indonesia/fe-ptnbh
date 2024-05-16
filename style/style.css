@@ -1054,6 +1054,8 @@ img {
 .img-rektor {
 	height: 450px;
 	width: 360px;
+	z-index: 2;
+	position: relative;
 }
 .card-rektor {
 	/* background-color: #7a8a99; */
@@ -1074,19 +1076,8 @@ img {
 	line-height: 28px;
     /* color: #20247b; */
 }
-
-.img-box {
-	position: absolute;
-	top: 40px; /* Adjust as needed */
-	left: 0;
-	width: 100%;
-	height: auto;
-	z-index: 1;
-}
-
-.img-rektor {
-	position: relative;
-	width: 100%;
-	height: auto;
-	z-index: 2;
+.text-rektor3 {
+	font-family: 'Inter', sans-serif;
+	font-size: 26px;
+	font-weight: 500;
 }
