@@ -50,7 +50,7 @@
 /* pengantatr */
 .pengantar {
 	padding: 100px 0;
-	background-color: #f8f9fa; /* Warna latar belakang */
+	/* background-color: #f8f9fa;  */
 	text-align: center;
 }
 
@@ -94,6 +94,7 @@
 
 /* berita */
 .berita {
+	background-color: #f8f9fa;
 	width: 100%;
 	justify-content: center;
 	text-align: center;
@@ -1088,4 +1089,38 @@ img {
 	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
+}
+.rektor {
+	padding: 100px 120px;
+	background-color: #f8f9fa;
+}
+.img-rektor {
+	height: 450px;
+	width: 360px;
+	z-index: 2;
+	position: relative;
+}
+.card-rektor {
+	/* background-color: #7a8a99; */
+	height: 100%;
+	
+}
+
+.text-rektor {
+	font-family: 'Inter', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.text-rektor2 {
+	font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+	line-height: 28px;
+    /* color: #20247b; */
+}
+.text-rektor3 {
+	font-family: 'Inter', sans-serif;
+	font-size: 26px;
+	font-weight: 500;
 }
