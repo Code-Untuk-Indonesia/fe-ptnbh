@@ -155,26 +155,16 @@
 }
 
 /* Footer */
-@media (max-width: 768px) {
-	.footer {
-		padding: 30px 0;
-	}
-
-	.footer h5 {
-		font-size: 20px;
-		margin-bottom: 20px;
-	}
-
-	.footer p {
-		font-size: 14px;
-		margin-bottom: 10px;
+@media (max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
 	}
 }
 
-/* mobile footer */
-@media screen and (max-width: 768px) {
-	.logo-footer {
-		width: 50px;
+@media (max-width: 574px) {
+	.footer-col {
+		width: 100%;
 	}
 }
 
